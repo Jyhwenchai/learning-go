@@ -7,7 +7,7 @@ import (
 )
 
 // switch
-// 和 if 语句类型，在 switch 语句中可以加入一条赋值语句
+// 和 if 语句类似，在 switch 语句中可以加入一条赋值语句
 
 func testSwitch() {
 	fmt.Print("Go runs on ")

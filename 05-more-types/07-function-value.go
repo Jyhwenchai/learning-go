@@ -22,7 +22,7 @@ func testFuncValue() {
 }
 
 // function closure
-// go 的函数可以使一个闭包，闭包是一个函数值，它从其主体外部引用变量。
+// go 的函数可以是一个闭包，闭包是一个函数值，它从其主体外部引用变量。
 // 该函数可以访问并分配给引用的变量；在这个意义上，函数是“绑定”到变量的。
 func testFuncClosure() {
 	adder := func() func(int) int {

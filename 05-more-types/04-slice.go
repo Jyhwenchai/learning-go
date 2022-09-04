@@ -68,7 +68,7 @@ func testSliceLiteral() {
 }
 
 // slice defaults (切片默认值)
-// 使用切片时，你可以忽略它的上限和下限，默认的会会使用默认值替代
+// 使用切片时，你可以忽略它的上限和下限，默认的会使用默认值替代
 // a[low:high] a[0:10] a[:10] a[0:] a[:]
 func testSliceDefaults() {
 	s := []int{2, 3, 5, 7, 11, 13}

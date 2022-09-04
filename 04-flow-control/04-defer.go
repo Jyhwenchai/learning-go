@@ -11,7 +11,7 @@ func testDefer() {
 }
 
 // Stacking defers
-// defer 函数调用被压入到一个栈中，当一个函数返回时，它的 defer 调用按后进先出的顺序执行。
+// defer 函数调用被压入到一个栈中，当一个函数返回时，它的 defer 调用按后进后出的顺序执行。
 func testStackDefers() {
 	fmt.Println("counting")
 	for i := 0; i < 10; i++ {

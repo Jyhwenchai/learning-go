@@ -49,5 +49,5 @@ func testIfElse() {
 func main() {
 	testIf()
 	testIfShortStatement()
-	testIfElse(
+	testIfElse()
 }
